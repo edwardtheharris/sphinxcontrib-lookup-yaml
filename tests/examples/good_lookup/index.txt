@@ -1,0 +1,28 @@
+Hello world!
+************
+
+Simple value:
+
+   qweqwe
+
+Array:
+
+   [1, 2, 3, 10]
+
+Mapping:
+
+   sub_value1: 123
+   sub_value2: [1, 2, 3]
+   sub_value3: {subsub_value1: kwkw}
+
+Subelement of mapping:
+
+   [1, 2, 3]
+
+Subelement of array:
+
+   2
+
+Subsubelement of mapping:
+
+   kwkw
