@@ -2,7 +2,7 @@ sphinxcontrib-lookup-yaml
 ================================================================================
 
 This Sphinx extension adds directive for looking up values from YAML files.
-Values are inserted are document as `literal_block` nodes.
+Values are inserted to document as `literal_block` nodes.
 
 Usage
 --------------------------------------------------------------------------------
