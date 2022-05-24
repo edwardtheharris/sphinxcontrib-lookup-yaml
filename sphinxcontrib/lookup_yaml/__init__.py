@@ -43,7 +43,7 @@ class LookupYAMLDirective(Directive):
 
     def get_value(self, location):
         with open(location, 'r', encoding='utf-8') as yml_src:
-            value = yaml.load(yml_src.read())
+            value = yaml.load(yml_src.read(), Loader=yaml.loader.SafeLoader)
         try:
             for i in self.content:
                 if isinstance(value, list):
